@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>Mobile Responsive Page</title>
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <img src="assets/logo.png" alt="Logo">
+            <input type="checkbox" id="bars-id" />
+            <label for="bars-id" class="hamburger">
+                <span class="bars"><i class="fa-solid fa-bars"></i></span>
+            </label>
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#browse-topics">BROWSE TOPICS</a></li>
+                    <li><a href="#how-work">HOW IT WORKS</a></li>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">PAGES</a></li>
+                </ul>
+            </div>
+            <div class="contacts-icon">
+                <a href="#"><i class="fa-solid fa-id-badge"></i></a>
+            </div>
+        </nav>
+
+        <section class="home-section" id="home">
+            <header class="home-header">
+                <h1>Discover. Learn. Enjoy</h1>
+                <p>Platform for creatives around the world</p>
+            </header>
+
+            <div class="search-bar">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="search" placeholder="Design, Code, Marketing, Finance ..." />
+                    <button>Search</button>
+                </div>
+            </div>
+            <div class="topics">
+                <div class="topic-card">
+                    <div class="card-header">
+                        <h3>Web Design</h3>
+                        <p>14</p>
+                    </div>
+                    <p>Lorem ipsum dolor amet sit, consectetur adipisicing elit. Lorem ipsum dolor amet sit consectetur, adipisicing elit. Facere, odio. </p>
+                    <img src="assets/card 1.jpeg" alt="Web Design" />
+                </div>
+                <div class="topic-card featured">
+                    <div class="featured-desc">
+                        <div class="card-header">
+                            <h3>Finance</h3>
+                            <p>42</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque earum perferendis ut tenetur consectetur adipisicing elit. </p>
+                        <button class="learn-btn">Learn More</button>
+                    </div>
+                    <div class="social">
+                        <div class="share">
+                            <span>Share:</span>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="#" class="bookmark"><i class="fa-regular fa-bookmark"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card-container" id="browse-topics">
+            <h1>Browse Topics</h1>
+            <nav class="category-nav">
+                <ul>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Education</a></li>
+                </ul>
+            </nav>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Web Design</h3>
+                        <p>14</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <img src="assets/topic 1.png" alt="Web Design" />
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Graphic</h3>
+                        <p>75</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <img src="assets/topic 2.png" alt="Graphic Design" />
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Logo Design</h3>
+                        <p>118</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <img src="assets/topic 3.png" alt="Logo Design" />
+                </div>
+            </div>
+        </section>
+
+        <section class="work-content" id="how-work">
+            <h1>How does it work?</h1>
+            <div class="work-steps">
+                <div class="content">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="desc">
+                        <h3>Explore Opportunities</h3>
+                        <input type="checkbox" class="read-more" id="toggle1">
+                        <p class="read-more-wrap">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <span class="read-more-target">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos esse iste at quidem nemo enim placeat consequuntur nisi ad rerum. Placeat soluta labore enim quam neque error alias dolorem perferendis maxime eius?
+                            </span>
+                        </p>
+                        <label for="toggle1" class="read-more-trigger"></label>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <div class="desc">
+                        <h3>Save Your Favorites</h3>
+                        <input type="checkbox" class="read-more" id="toggle2">
+                        <p class="read-more-wrap">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <span class="read-more-target">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos esse iste at quidem nemo enim placeat consequuntur nisi ad rerum. Placeat soluta labore enim quam neque error alias dolorem perferendis maxime eius?
+                            </span>
+                        </p>
+                        <label for="toggle2" class="read-more-trigger"></label>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <i class="fa-solid fa-book-open"></i>
+                    <div class="desc">
+                        <h3>Explore More</h3>
+                        <input type="checkbox" class="read-more" id="toggle3">
+                        <p class="read-more-wrap">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <span class="read-more-target">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos esse iste at quidem nemo enim placeat consequuntur nisi ad rerum. Placeat soluta labore enim quam neque error alias dolorem perferendis maxime eius?
+                            </span>
+                        </p>
+                        <label for="toggle3" class="read-more-trigger"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
